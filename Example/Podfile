@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MoGoKit_Example' do
+  pod 'MoGoKit', :path => '../'
+
+  target 'MoGoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
